@@ -18,7 +18,7 @@ export const AppNavigator = () => (
       name="Home"
       component={HomeNavigator}
       options={{
-        tabBarColor: 'red',
+        tabBarColor: 'blue',
         tabBarIcon: 'home',
       }}
     />
@@ -27,7 +27,7 @@ export const AppNavigator = () => (
       component={ResultsScreen}
       options={{
         tabBarColor: 'green',
-        tabBarIcon: 'wifi',
+        tabBarIcon: 'medal',
       }}
     />
   </Tab.Navigator>
